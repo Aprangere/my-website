@@ -1,0 +1,163 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { translations } from '../i18n/translations';
+const en = translations.en;
+const fr = translations.fr;
+---
+
+<BaseLayout title="Arman Prangere">
+
+  <!-- Hero: photo left, text right -->
+  <section class="flex flex-col sm:flex-row items-center sm:items-start gap-10 sm:gap-14 mb-24">
+
+    <img
+      src="/me.jpg"
+      alt="Arman Prangere"
+      class="w-44 h-44 sm:w-56 sm:h-56 rounded-2xl object-cover object-top shadow-sm shrink-0 dark:brightness-90"
+      onerror="this.src='https://ui-avatars.com/api/?name=Arman+Prangere&size=224&background=ffe0b3&color=c05a40&bold=true'"
+    />
+
+    <div class="text-center sm:text-left">
+      <h1 class="text-2xl sm:text-3xl font-bold text-stone-900 dark:text-stone-100 tracking-tight mb-1"
+        data-en={en.home.name} data-fr={fr.home.name}>{en.home.name}</h1>
+
+      <p class="text-xs font-semibold text-salmon uppercase tracking-widest mb-4"
+        data-en={en.home.role} data-fr={fr.home.role}>{en.home.role}</p>
+
+      <!-- Socials + Paris time -->
+      <div class="flex items-center gap-4 justify-center sm:justify-start mb-2">
+        <a href="mailto:arman.behavior@gmail.com" aria-label="Email"
+           class="text-stone-400 hover:text-salmon transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/arman-prangere-1224791a6/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+           class="text-stone-400 hover:text-salmon transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <a href="https://substack.com/@armanphil" target="_blank" rel="noopener noreferrer" aria-label="Substack"
+           class="text-stone-400 hover:text-salmon transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/Aprangere" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+           class="text-stone-400 hover:text-salmon transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="https://orcid.org/0009-0009-7628-6088" target="_blank" rel="noopener noreferrer" aria-label="ORCID"
+           class="text-stone-400 hover:text-salmon transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 3.872-2.484 3.872-3.722 0-2.016-1.284-3.722-3.872-3.722h-2.297z"/>
+          </svg>
+        </a>
+      </div>
+
+      <p class="flex items-center gap-1.5 text-xs text-stone-400 dark:text-stone-500 justify-center sm:justify-start mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-green-400 shrink-0"></span>
+        Paris · <span id="paris-time"></span>
+      </p>
+
+      <p class="text-xl text-stone-700 dark:text-stone-300 leading-relaxed mb-5 max-w-xl"
+        data-en={en.home.tagline} data-fr={fr.home.tagline}>{en.home.tagline}</p>
+
+      <p class="text-base text-stone-600 dark:text-stone-300 leading-relaxed max-w-xl mb-8"
+        data-en={en.home.bio} data-fr={fr.home.bio}>{en.home.bio}</p>
+
+      <a href="/research"
+         class="text-sm font-semibold text-salmon hover:text-accent-dark transition-colors"
+         data-en={en.home.researchCta} data-fr={fr.home.researchCta}>{en.home.researchCta}</a>
+    </div>
+  </section>
+
+  <!-- Projects grid -->
+  <section>
+    <div class="flex items-baseline justify-between mb-8">
+      <span class="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-widest"
+        data-en={en.home.projectsTitle} data-fr={fr.home.projectsTitle}>{en.home.projectsTitle}</span>
+      <a href="/services"
+         class="text-sm font-semibold text-salmon hover:text-accent-dark transition-colors"
+         data-en={en.home.servicesCta} data-fr={fr.home.servicesCta}>{en.home.servicesCta}</a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {en.projects.map((item, i) => (
+        <div class="group flex flex-col rounded-2xl overflow-hidden bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border hover:border-accent/40 dark:hover:border-accent/40 transition-colors duration-200">
+          <div class="w-full bg-stone-100 dark:bg-stone-800">
+            <img
+              src={`/${item.image}`}
+              alt={item.alt}
+              class="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-500"
+              onerror="this.parentElement.style.background='#ffe0b3'"
+            />
+          </div>
+          <div class="flex flex-col flex-1 p-5">
+            <p class="text-[11px] font-medium text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-2"
+              data-en={item.context} data-fr={fr.projects[i].context}>{item.context}</p>
+            <h3 class="font-semibold text-stone-900 dark:text-stone-100 leading-snug mb-2"
+              data-en={item.title} data-fr={fr.projects[i].title}>{item.title}</h3>
+            <p class="text-sm text-stone-600 dark:text-stone-300 leading-relaxed"
+              data-en={item.description} data-fr={fr.projects[i].description}>{item.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Rotating quote -->
+  <section class="mt-20 mb-4">
+    <div class="border-l-2 border-lm-border dark:border-dm-border pl-5"
+         data-quotes-en={JSON.stringify(en.quotes)}
+         data-quotes-fr={JSON.stringify(fr.quotes)}>
+      <p id="quote-text" class="text-stone-500 dark:text-stone-400 italic leading-relaxed transition-opacity duration-700"></p>
+      <p id="quote-author" class="text-xs text-stone-400 dark:text-stone-500 mt-2 transition-opacity duration-700"></p>
+    </div>
+  </section>
+
+<script>
+  // Paris time
+  function updateParisTime() {
+    const el = document.getElementById('paris-time');
+    if (!el) return;
+    el.textContent = new Date().toLocaleTimeString('fr-FR', {
+      timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit',
+    });
+  }
+  updateParisTime();
+  setInterval(updateParisTime, 60000);
+
+  // Rotating quotes
+  const quoteContainer = document.querySelector('[data-quotes-en]') as HTMLElement;
+  const quoteText   = document.getElementById('quote-text')!;
+  const quoteAuthor = document.getElementById('quote-author')!;
+  if (quoteContainer) {
+    const enQuotes: { text: string; author: string }[] = JSON.parse(quoteContainer.dataset.quotesEn || '[]');
+    const frQuotes: { text: string; author: string }[] = JSON.parse(quoteContainer.dataset.quotesFr || '[]');
+    let idx = Math.floor(Math.random() * enQuotes.length);
+
+    function showQuote() {
+      const lang = (localStorage.getItem('lang') as 'en' | 'fr') || 'en';
+      const quotes = lang === 'fr' ? frQuotes : enQuotes;
+      if (!quotes.length) return;
+      quoteText.style.opacity = '0';
+      quoteAuthor.style.opacity = '0';
+      setTimeout(() => {
+        quoteText.textContent   = `"${quotes[idx].text}"`;
+        quoteAuthor.textContent = `— ${quotes[idx].author}`;
+        quoteText.style.opacity = '1';
+        quoteAuthor.style.opacity = '1';
+        idx = (idx + 1) % quotes.length;
+      }, 700);
+    }
+
+    showQuote();
+    setInterval(showQuote, 10000);
+  }
+</script>
+
+</BaseLayout>

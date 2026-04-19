@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(npm --version)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -sLo me.jpg \"https://raw.githubusercontent.com/Aprangere/behavior/main/public/me.jpg\")",
+      "Bash(curl -sLo tea.jpg \"https://raw.githubusercontent.com/Aprangere/behavior/main/public/tea.jpg\")",
+      "Bash(curl -sLo citeo.jpg \"https://raw.githubusercontent.com/Aprangere/behavior/main/public/citeo.jpg\")",
+      "Bash(curl -sLo wfp.png \"https://raw.githubusercontent.com/Aprangere/behavior/main/public/wfp.png\")",
+      "WebFetch(domain:www.arlenmccluskey.com)",
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:doc-08-8c-docstext.googleusercontent.com)",
+      "Bash(python3 *)",
+      "WebFetch(domain:openlibrary.org)",
+      "Read(//c/Users/user/Desktop/**)",
+      "Read(//c/Users/user/Documents/**)",
+      "Read(//c/Users/user/Downloads/**)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)"
+    ]
+  }
+}

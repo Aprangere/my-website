@@ -1,0 +1,281 @@
+export const translations = {
+  en: {
+    nav: { home: "Home", research: "Research", services: "Services" },
+
+    home: {
+      name: "Arman Prangere",
+      role: "Human Behaviour | Collective Intelligence | AI",
+      tagline: "I help build brighter futures by researching how people think, decide, and act.",
+      bio: "My name is Arman. I hold a B.A. in Social Sciences and a B.A. in Philosophy. I am currently completing an M.Sc. in Cognitive Science at École Normale Supérieure, Paris. I draw on this interdisciplinary background to help teams understand behaviour, clarify problems, and design systems that make sense to the people who use them.",
+      researchCta: "My research →",
+      projectsTitle: "Projects",
+      servicesCta: "Work with me →",
+    },
+
+    projects: [
+      {
+        title: "Rethinking Nutrition Communication in Bangladesh",
+        context: "World Food Programme · Ogilvy Consulting · 2025",
+        description: "Strategic recommendations based on ethnographic research, creative activations with local partners, and the design of a statistical plan and impact questionnaire for monitoring and evaluation.",
+        image: "wfp.png",
+        alt: "WFP",
+      },
+      {
+        title: "Encouraging 3R Behaviors Among Youth",
+        context: "Citéo · Ogilvy Consulting · 2025",
+        description: "Literature review and behavioural mapping to promote Reduce, Reuse and Recycle behaviours among 6–18 year-olds.",
+        image: "citeo.jpg",
+        alt: "Citéo",
+      },
+      {
+        title: "Developing a Local Tea Shop",
+        context: "Meadow Tea · Edinburgh · 2025",
+        description: "Analysis of a tea shop in Edinburgh and identification of choice overload as a key friction point. Strategic recommendations based on behavioural economics and decision-making neuroscience.",
+        image: "tea.jpg",
+        alt: "Tea shop",
+      },
+    ],
+
+    research: {
+      title: "Research",
+      question: "'The goals and motives that guide human action must be looked at in the light of all that we know and understand (...) Only barbarians are not curious about where they come from' - Isaiah Berlin, The rooked Timber of Humanity, 6",
+      intro: "My research sits at the intersection of cognitive science, cultural history, and political philosophy. I study how meaning is produced and transmitted in modern societies — and what this implies for how we organise ourselves collectively.",
+      thread: "The common thread across my work is a single question: in a world where shared meaning has fractured — where religion, tradition, and collective institutions have lost much of their hold — how do people and organisations find coherence? And what new forms of world-making are possible?",
+
+      areasTitle: "Research Areas",
+      areas: [
+        {
+          title: "Culture & Cognition",
+          body: "How cultural context shapes the way we think, reason, and make decisions. Drawing on cognitive science, anthropology, and psychohistory to understand the deep structures of collective thought.",
+        },
+        {
+          title: "Meaning in Modernity",
+          body: "Why meaning in contemporary Western societies is increasingly derived from individual aspirations rather than collective institutions. I use computational text analysis and psychological frameworks to trace this transition across corpora.",
+        },
+        {
+          title: "Collective Intelligence & Decision Systems",
+          body: "How groups — from organisations to political communities — can make better decisions together. Drawing on distributed cognition, deliberative democracy, and complex systems research.",
+        },
+        {
+          title: "Political Philosophy & Decentralisation",
+          body: "The normative dimension: what kinds of political structures and governance designs allow communities to remain coherent while preserving genuine plurality?",
+        },
+      ],
+
+      cogSciLabel: "What is cognitive science?",
+      cogSciBody: "Created in the second half of the twentieth century, cognitive science is the interdisciplinary endeavour to study the mind as an information-processing system. It connects computer science, psychology, neuroscience, philosophy, linguistics, and anthropology. In my research, I use psychological theories and computational text analysis to address questions in philosophy and the social sciences — notably why meaning in modernity is increasingly derived from individual desires and aspirations rather than group norms and traditions.",
+
+      methodsTitle: "Methods",
+      methods: [
+        "Computational text analysis on large historical corpora",
+        "Psychohistorical and cultural analysis",
+        "Ethnographic fieldwork",
+        "Experimental and quasi-experimental design",
+        "Deliberative and participatory research methods",
+      ],
+
+      currentTitle: "Current Work",
+      current: "My M.Sc. thesis at ENS Paris investigates the shift in sources of meaning in modern Western societies — from collective institutions (religion, tradition, community) toward individual aspiration — using large-scale text corpora and psychological frameworks. This work connects to broader questions about how organisations and political communities can recover shared purpose without returning to pre-modern forms of authority.",
+    },
+
+    services: {
+      title: "Services",
+      intro: "My applied work is at the intersection of experimentation and strategy. I ground my recommendations on behavioural science frameworks (COM-B, EAST, DECIDE), scientific literature, and context-sensitive experimentation.",
+      helpTitle: "I can help you:",
+      helpItems: [
+        "Align your ambitions with real human behaviour",
+        "Increase adoption of new products, policies, or habits",
+        "Understand your users and uncover hidden barriers",
+        "Boost team motivation and organisational culture",
+        "Integrate AI tools into your workflow thoughtfully",
+        "Design interventions that drive measurable change",
+        "Build decision systems for collective intelligence",
+        "Implement agentic workflows for your organisation",
+      ],
+      areasTitle: "Areas of practice",
+      areas: [
+        {
+          title: "Behavioural Science & Strategy",
+          body: "Applying COM-B, EAST and DECIDE frameworks to diagnose friction and design evidence-based interventions — for teams, users, or populations.",
+        },
+        {
+          title: "AI Integration & Workflow",
+          body: "Helping organisations adopt AI tools in a way that fits their culture and decision-making processes. Practical implementation, grounded in organisational behaviour research.",
+        },
+        {
+          title: "Agentic Systems",
+          body: "Designing autonomous workflows and multi-agent systems that extend your organisation's capacity to act — drawing on research in distributed cognition and complex systems.",
+        },
+        {
+          title: "Organisational Decision Design",
+          body: "Mapping how decisions are actually made and redesigning the structures, processes, and incentives that shape collective behaviour.",
+        },
+      ],
+      offeringsTitle: "How we can work together",
+      offerings: [
+        {
+          label: "Free 15-min call",
+          body: "A first conversation to understand your challenge and whether I can help. No commitment.",
+        },
+        {
+          label: "Behavioural Audit",
+          body: "I analyse your problem, review the relevant scientific literature, and deliver clear, immediately actionable recommendations.",
+        },
+        {
+          label: "Experimentation & Testing",
+          body: "I design and run experiments using qualitative and quantitative methods — A/B tests, interviews, pilots. I analyse the data and hand back a clear actionable summary.",
+        },
+        {
+          label: "Monthly Retainer",
+          body: "Think of me as your embedded behavioural strategist. I help you define long-term positioning, gather insights through ongoing research, and adapt to evolving challenges.",
+        },
+      ],
+      pricing: "I prioritise meaningful missions — from simplifying public services to promoting healthier behaviours. Pricing adapts to scope and deliverables. Nonprofits receive a 50% discount across all services.",
+      contactTitle: "Book a call",
+      contactIntro: "Use the calendar below to book a free 30-minute discovery call.",
+    },
+
+    footer: { copy: "© 2025 Arman Prangere" },
+  },
+
+  fr: {
+    nav: { home: "Accueil", research: "Recherche", services: "Services" },
+
+    home: {
+      name: "Arman Prangere",
+      role: "Chercheur · Consultant en sciences comportementales",
+      tagline: "J'aide les organisations à résoudre leurs problèmes en étudiant comment les gens pensent, décident et agissent.",
+      bio: "Je m'appelle Arman. Je suis titulaire d'un B.A. en Sciences Sociales et d'un B.A. en Philosophie, et je termine actuellement un M.Sc. en Sciences Cognitives à l'École Normale Supérieure, Paris. Je m'appuie sur cette formation interdisciplinaire pour aider les équipes à comprendre les comportements, clarifier les problèmes et concevoir des systèmes adaptés aux utilisateurs.",
+      researchCta: "Ma recherche →",
+      projectsTitle: "Projets",
+      servicesCta: "Travailler ensemble →",
+    },
+
+    projects: [
+      {
+        title: "Repenser la communication nutritionnelle au Bangladesh",
+        context: "Programme Alimentaire Mondial · Ogilvy Consulting · 2025",
+        description: "Recommandations stratégiques fondées sur la recherche ethnographique, des activations créatives avec des partenaires locaux, et la conception d'un plan statistique et d'un questionnaire d'impact pour le suivi et l'évaluation.",
+        image: "wfp.png",
+        alt: "PAM",
+      },
+      {
+        title: "Encourager les comportements 3R chez les jeunes",
+        context: "Citéo · Ogilvy Consulting · 2025",
+        description: "Revue de littérature et cartographie comportementale pour promouvoir les comportements Réduire, Réutiliser et Recycler auprès des 6-18 ans.",
+        image: "citeo.jpg",
+        alt: "Citéo",
+      },
+      {
+        title: "Développer un salon de thé local",
+        context: "Meadow Tea · Édimbourg · 2025",
+        description: "Analyse d'un salon de thé à Édimbourg et identification de la surcharge de choix comme point de friction clé. Recommandations stratégiques fondées sur l'économie comportementale et les neurosciences de la décision.",
+        image: "tea.jpg",
+        alt: "Salon de thé",
+      },
+    ],
+
+    research: {
+      title: "Recherche",
+      question: "Comment faire monde ensemble dans une modernité désenchantée ?",
+      intro: "Ma recherche se situe à l'intersection des sciences cognitives, de l'histoire culturelle et de la philosophie politique. J'étudie comment le sens est produit et transmis dans les sociétés modernes — et ce que cela implique pour la manière dont nous nous organisons collectivement.",
+      thread: "Le fil conducteur de mon travail est une seule question : dans un monde où le sens partagé s'est fragmenté — où la religion, la tradition et les institutions collectives ont largement perdu leur emprise — comment les individus et les organisations trouvent-ils de la cohérence ? Et quelles nouvelles formes de « faire monde » sont possibles ?",
+
+      areasTitle: "Axes de recherche",
+      areas: [
+        {
+          title: "Culture & Cognition",
+          body: "Comment le contexte culturel façonne la manière dont nous pensons, raisonnons et prenons des décisions. Mobilisant les sciences cognitives, l'anthropologie et la psychohistoire pour comprendre les structures profondes de la pensée collective.",
+        },
+        {
+          title: "Sens et modernité",
+          body: "Pourquoi le sens dans les sociétés occidentales contemporaines est de plus en plus dérivé d'aspirations individuelles plutôt que d'institutions collectives. J'utilise l'analyse textuelle computationnelle et des cadres psychologiques pour retracer cette transition.",
+        },
+        {
+          title: "Intelligence collective & systèmes de décision",
+          body: "Comment les groupes — des organisations aux communautés politiques — peuvent prendre de meilleures décisions ensemble. Mobilisant la cognition distribuée, la démocratie délibérative et la recherche sur les systèmes complexes.",
+        },
+        {
+          title: "Philosophie politique & décentralisation",
+          body: "La dimension normative : quels types de structures politiques et de gouvernance permettent aux communautés de rester cohérentes tout en préservant une véritable pluralité ?",
+        },
+      ],
+
+      cogSciLabel: "Qu'est-ce que les sciences cognitives ?",
+      cogSciBody: "Créées dans la seconde moitié du XXe siècle, les sciences cognitives constituent l'entreprise interdisciplinaire d'étudier l'esprit comme système de traitement de l'information. Elles connectent l'informatique, la psychologie, les neurosciences, la philosophie, la linguistique et l'anthropologie. Dans ma recherche, j'utilise des théories psychologiques et l'analyse textuelle computationnelle pour aborder des questions de philosophie et de sciences sociales.",
+
+      methodsTitle: "Méthodes",
+      methods: [
+        "Analyse textuelle computationnelle sur de grands corpus historiques",
+        "Analyse psychohistorique et culturelle",
+        "Enquête ethnographique",
+        "Conception expérimentale et quasi-expérimentale",
+        "Méthodes de recherche délibératives et participatives",
+      ],
+
+      currentTitle: "Travaux en cours",
+      current: "Mon mémoire de M.Sc. à l'ENS Paris examine le glissement des sources de sens dans les sociétés occidentales modernes — des institutions collectives (religion, tradition, communauté) vers l'aspiration individuelle — en utilisant de grands corpus textuels et des cadres psychologiques. Ce travail rejoint des questions plus larges sur la manière dont les organisations et les communautés politiques peuvent retrouver un sens partagé.",
+    },
+
+    services: {
+      title: "Services",
+      intro: "Mon travail appliqué est à l'intersection de l'expérimentation et de la stratégie. Je fonde mes recommandations sur des cadres de sciences comportementales (COM-B, EAST, DECIDE), la littérature scientifique et une expérimentation adaptée au contexte.",
+      helpTitle: "Je peux vous aider à :",
+      helpItems: [
+        "Aligner vos ambitions avec les comportements humains réels",
+        "Augmenter l'adoption de nouveaux produits, politiques ou habitudes",
+        "Comprendre vos utilisateurs et découvrir les obstacles cachés",
+        "Renforcer la motivation des équipes et la culture organisationnelle",
+        "Intégrer des outils d'IA dans votre flux de travail",
+        "Concevoir des interventions qui génèrent des changements mesurables",
+        "Construire des systèmes de décision pour l'intelligence collective",
+        "Mettre en œuvre des flux de travail agentiques pour votre organisation",
+      ],
+      areasTitle: "Domaines d'intervention",
+      areas: [
+        {
+          title: "Sciences comportementales & Stratégie",
+          body: "Application des cadres COM-B, EAST et DECIDE pour diagnostiquer les frictions et concevoir des interventions fondées sur des preuves.",
+        },
+        {
+          title: "Intégration de l'IA & Flux de travail",
+          body: "Accompagnement des organisations dans l'adoption d'outils d'IA adaptés à leur culture et leurs processus décisionnels. Mise en œuvre concrète, ancrée dans la recherche en comportement organisationnel.",
+        },
+        {
+          title: "Systèmes agentiques",
+          body: "Conception de flux de travail autonomes et de systèmes multi-agents qui étendent la capacité d'action de votre organisation.",
+        },
+        {
+          title: "Architecture des décisions organisationnelles",
+          body: "Cartographie des processus décisionnels réels et refonte des structures, processus et incitations qui façonnent le comportement collectif.",
+        },
+      ],
+      offeringsTitle: "Comment travailler ensemble",
+      offerings: [
+        {
+          label: "Appel gratuit de 15 min",
+          body: "Une première conversation pour comprendre votre défi et voir si je peux vous aider. Sans engagement.",
+        },
+        {
+          label: "Audit comportemental",
+          body: "J'analyse votre problème, examine la littérature scientifique pertinente et livre des recommandations claires et immédiatement actionnables.",
+        },
+        {
+          label: "Expérimentation & Tests",
+          body: "Je conçois et mène des expériences qualitatives ou quantitatives — tests A/B, entretiens, pilotes. J'analyse les données et vous remets un résumé actionnable.",
+        },
+        {
+          label: "Accompagnement mensuel",
+          body: "Considérez-moi comme votre stratège comportemental intégré. Je vous aide à définir un positionnement à long terme et à vous adapter aux défis évolutifs.",
+        },
+      ],
+      pricing: "Je priorise les missions qui ont du sens — simplifier les services publics, promouvoir des comportements plus sains. La tarification s'adapte à la portée du projet. Les associations à but non lucratif bénéficient d'une réduction de 50 %.",
+      contactTitle: "Prendre rendez-vous",
+      contactIntro: "Utilisez le calendrier ci-dessous pour réserver un appel découverte gratuit de 30 minutes.",
+    },
+
+    footer: { copy: "© 2025 Arman Prangere" },
+  },
+} as const;
+
+export type Lang = keyof typeof translations;

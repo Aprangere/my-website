@@ -1,0 +1,66 @@
+---
+import { translations } from '../i18n/translations';
+const en = translations.en.hero;
+const fr = translations.fr.hero;
+---
+
+<section class="max-w-2xl mx-auto mt-16 sm:mt-20 mb-6 px-4">
+  <div class="bg-white dark:bg-stone-900 rounded-2xl shadow-lg ring-1 ring-stone-900/5 dark:ring-white/5 p-8 sm:p-12 relative overflow-hidden text-center">
+    <!-- Subtle background accent -->
+    <div class="absolute inset-0 bg-gradient-to-br from-accent-muted/20 via-transparent to-transparent dark:from-accent/10 pointer-events-none"></div>
+
+    <!-- Profile image -->
+    <div class="relative z-10 flex justify-center mb-7">
+      <img
+        src="/me.jpg"
+        alt="Arman Prangere"
+        class="w-32 h-32 sm:w-36 sm:h-36 rounded-full object-cover object-top border-4 border-white dark:border-stone-800 shadow-xl"
+        onerror="this.src='https://ui-avatars.com/api/?name=Arman+Prangere&size=144&background=B8715A&color=fff&bold=true'"
+      />
+    </div>
+
+    <!-- Name -->
+    <h1 class="relative z-10 text-3xl sm:text-4xl font-bold text-stone-900 dark:text-white mb-3 tracking-tight" data-en={en.name} data-fr={fr.name}>
+      {en.name}
+    </h1>
+
+    <!-- Divider -->
+    <div class="flex justify-center mb-5">
+      <span class="w-10 h-0.5 bg-accent rounded-full"></span>
+    </div>
+
+    <!-- Tagline -->
+    <p class="relative z-10 text-xl sm:text-2xl text-stone-700 dark:text-stone-300 leading-relaxed max-w-lg mx-auto mb-8 font-light" data-en={en.tagline} data-fr={fr.tagline}>
+      {en.tagline}
+    </p>
+
+    <!-- Social icons -->
+    <div class="relative z-10 flex justify-center gap-6 mb-8">
+      <a href="mailto:arman.behavior@gmail.com" aria-label="Email" class="text-stone-400 hover:text-accent dark:hover:text-accent transition-colors duration-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/arman-prangere-1224791a6/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-stone-400 hover:text-accent dark:hover:text-accent transition-colors duration-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+      </a>
+      <a href="https://substack.com/@armanphil" target="_blank" rel="noopener noreferrer" aria-label="Substack" class="text-stone-400 hover:text-accent dark:hover:text-accent transition-colors duration-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- CTA -->
+    <a
+      href="#contact"
+      class="relative z-10 inline-block bg-accent text-white font-semibold px-7 py-3 rounded-xl shadow-md hover:bg-accent-dark transition-colors duration-200 tracking-wide"
+      data-en={en.cta}
+      data-fr={fr.cta}
+    >
+      {en.cta}
+    </a>
+  </div>
+</section>

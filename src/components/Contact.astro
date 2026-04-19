@@ -1,0 +1,27 @@
+---
+import { translations } from '../i18n/translations';
+const en = translations.en.contact;
+const fr = translations.fr.contact;
+---
+
+<section id="contact" class="max-w-2xl mx-auto mb-6 px-4">
+  <div class="bg-white dark:bg-stone-900 rounded-2xl shadow-lg ring-1 ring-stone-900/5 dark:ring-white/5 p-8 sm:p-12">
+    <h2
+      class="text-2xl sm:text-3xl font-bold text-stone-900 dark:text-white mb-2 tracking-tight"
+      data-en={en.title}
+      data-fr={fr.title}
+    >{en.title}</h2>
+    <p
+      class="text-stone-600 dark:text-stone-400 text-lg mb-8"
+      data-en={en.subtitle}
+      data-fr={fr.subtitle}
+    >{en.subtitle}</p>
+
+    <div
+      class="calendly-inline-widget rounded-xl overflow-hidden"
+      data-url="https://calendly.com/arman-behavior/30min"
+      style="min-width:280px;height:630px;"
+    ></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </div>
+</section>

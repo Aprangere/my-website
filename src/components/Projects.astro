@@ -1,0 +1,48 @@
+---
+import { translations } from '../i18n/translations';
+const en = translations.en.projects;
+const fr = translations.fr.projects;
+---
+
+<section class="max-w-2xl mx-auto mb-6 px-4">
+  <div class="bg-white dark:bg-stone-900 rounded-2xl shadow-lg ring-1 ring-stone-900/5 dark:ring-white/5 p-8 sm:p-12">
+
+    <h2 class="text-2xl sm:text-3xl font-bold text-stone-900 dark:text-white mb-8 tracking-tight" data-en={en.title} data-fr={fr.title}>{en.title}</h2>
+
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 mb-8">
+      {en.items.map((project, i) => (
+        <div class="rounded-xl overflow-hidden border border-stone-100 dark:border-stone-700 hover:shadow-md dark:hover:shadow-stone-900/60 transition-shadow duration-200 flex flex-col">
+          <!-- Image fills a 16:9 box -->
+          <div class="w-full aspect-video bg-stone-100 dark:bg-stone-800 overflow-hidden">
+            <img
+              src={`/${project.image}`}
+              alt={project.alt}
+              class="w-full h-full object-cover object-center"
+              onerror="this.parentElement.classList.add('bg-accent-muted')"
+            />
+          </div>
+          <div class="p-5 flex flex-col flex-1 bg-white dark:bg-stone-900">
+            <p class="text-xs font-semibold text-accent uppercase tracking-widest mb-2" data-en={project.context} data-fr={fr.items[i].context}>
+              {project.context}
+            </p>
+            <h3 class="font-bold text-stone-900 dark:text-white mb-2 leading-snug text-lg" data-en={project.title} data-fr={fr.items[i].title}>
+              {project.title}
+            </h3>
+            <p class="text-stone-600 dark:text-stone-400 text-base leading-relaxed" data-en={project.description} data-fr={fr.items[i].description}>
+              {project.description}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <a
+      href="#contact"
+      class="inline-block bg-accent text-white font-semibold px-7 py-3 rounded-xl shadow-md hover:bg-accent-dark transition-colors duration-200 tracking-wide"
+      data-en={en.cta}
+      data-fr={fr.cta}
+    >
+      {en.cta}
+    </a>
+  </div>
+</section>

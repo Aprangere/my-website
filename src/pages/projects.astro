@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { translations } from '../i18n/translations';
+const en = translations.en;
+const fr = translations.fr;
+---
+
+<BaseLayout title="Projects — Arman Prangere">
+
+  <h1 class="text-2xl sm:text-3xl font-bold text-stone-900 dark:text-stone-100 tracking-tight mb-12"
+    data-en={en.home.projectsTitle} data-fr={fr.home.projectsTitle}>{en.home.projectsTitle}</h1>
+
+  <div class="grid gap-6 sm:grid-cols-2">
+    {en.projects.map((item, i) => (
+      <div class="group flex flex-col rounded-2xl overflow-hidden bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border hover:border-accent/40 dark:hover:border-accent/40 transition-colors duration-200">
+        <div class="w-full bg-stone-100 dark:bg-stone-800">
+          <img
+            src={`/${item.image}`}
+            alt={item.alt}
+            class="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-500"
+            onerror="this.parentElement.style.background='#ffe0b3'"
+          />
+        </div>
+        <div class="flex flex-col flex-1 p-6">
+          <p class="text-xs font-medium text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-2"
+            data-en={item.context} data-fr={fr.projects[i].context}>{item.context}</p>
+          <h2 class="font-semibold text-stone-900 dark:text-stone-100 leading-snug mb-3 text-lg"
+            data-en={item.title} data-fr={fr.projects[i].title}>{item.title}</h2>
+          <p class="text-stone-500 dark:text-stone-400 leading-relaxed"
+            data-en={item.description} data-fr={fr.projects[i].description}>{item.description}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+
+</BaseLayout>

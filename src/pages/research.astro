@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { translations } from '../i18n/translations';
+const en = translations.en.research;
+const fr = translations.fr.research;
+const enHome = translations.en.home;
+const frHome = translations.fr.home;
+---
+
+<BaseLayout title="Research — Arman Prangere">
+
+  <div class="mb-14">
+    <h1 class="text-2xl sm:text-3xl font-bold text-stone-900 dark:text-stone-100 tracking-tight mb-6"
+      data-en={en.title} data-fr={fr.title}>{en.title}</h1>
+
+    <p class="text-lg text-stone-600 dark:text-stone-300 leading-relaxed max-w-2xl mb-4"
+      data-en={en.intro} data-fr={fr.intro}>{en.intro}</p>
+
+    <p class="text-lg text-stone-600 dark:text-stone-300 leading-relaxed max-w-2xl"
+      data-en={en.thread} data-fr={fr.thread}>{en.thread}</p>
+  </div>
+
+  <!-- Research areas -->
+  <div class="mb-14">
+    <h2 class="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-6"
+      data-en={en.areasTitle} data-fr={fr.areasTitle}>{en.areasTitle}</h2>
+
+    <div class="grid gap-4 sm:grid-cols-2">
+      {en.areas.map((area, i) => (
+        <div class="rounded-2xl bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border p-6">
+          <h3 class="font-semibold text-stone-900 dark:text-stone-100 mb-2"
+            data-en={area.title} data-fr={fr.areas[i].title}>{area.title}</h3>
+          <p class="text-stone-600 dark:text-stone-300 leading-relaxed"
+            data-en={area.body} data-fr={fr.areas[i].body}>{area.body}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Methods -->
+  <div class="mb-14">
+    <h2 class="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-6"
+      data-en={en.methodsTitle} data-fr={fr.methodsTitle}>{en.methodsTitle}</h2>
+
+    <ul class="space-y-3">
+      {en.methods.map((method, i) => (
+        <li class="flex items-start gap-3 text-stone-700 dark:text-stone-300">
+          <span class="mt-1.5 text-salmon shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </span>
+          <span data-en={method} data-fr={fr.methods[i]}>{method}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <!-- Current work -->
+  <div class="rounded-2xl bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border p-6 sm:p-8 mb-14">
+    <h2 class="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-4"
+      data-en={en.currentTitle} data-fr={fr.currentTitle}>{en.currentTitle}</h2>
+    <p class="text-stone-700 dark:text-stone-300 leading-relaxed text-lg"
+      data-en={en.current} data-fr={fr.current}>{en.current}</p>
+  </div>
+
+  <!-- Academic links -->
+  <div>
+    <h2 class="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-4"
+      data-en={en.linksTitle} data-fr={fr.linksTitle}>{en.linksTitle}</h2>
+    <div class="flex flex-wrap gap-4">
+      <a href="https://orcid.org/0009-0009-7628-6088" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2 text-sm font-medium text-stone-600 dark:text-stone-400 hover:text-salmon transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 3.872-2.484 3.872-3.722 0-2.016-1.284-3.722-3.872-3.722h-2.297z"/>
+        </svg>
+        <span data-en={en.orcidLabel} data-fr={fr.orcidLabel}>{en.orcidLabel}</span>
+      </a>
+      <a href="/cv.pdf" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2 text-sm font-medium text-stone-600 dark:text-stone-400 hover:text-salmon transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h4a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+        </svg>
+        <span data-en={en.cvLabel} data-fr={fr.cvLabel}>{en.cvLabel}</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="mt-14">
+    <p class="text-stone-600 dark:text-stone-400 mb-2"
+      data-en={enHome.cta} data-fr={frHome.cta}>{enHome.cta}</p>
+    <a href="mailto:aprangerepro@gmail.com"
+       class="text-sm font-semibold text-salmon hover:text-accent-dark transition-colors"
+       data-en={enHome.ctaLink} data-fr={frHome.ctaLink}>{enHome.ctaLink}</a>
+  </div>
+
+</BaseLayout>

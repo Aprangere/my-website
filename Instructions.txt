@@ -1,0 +1,6 @@
+Your task is to build a complete - professional looking slinky website template for a researcher / freelance. 
+Make use of astro components 
+A toggle button on the top left corner should make it easy to switch between french and english.  
+
+My last attempt is on this repo : https://github.com/Aprangere/behavior 
+If you can not access it just start from scratch I will add the content later. 
