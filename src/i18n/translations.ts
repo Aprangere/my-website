@@ -5,8 +5,8 @@ export const translations = {
     home: {
       name: "Arman Prangere",
       role: "M.Sc. Cognitive Science · ENS - PSL",
-      tagline: "I study how people think. Sometimes I help organisations do something about it.",
-      bio: "My name is Arman. I hold a Double B.A. in Social Sciences and Philosophy from Sciences Po and Sorbonne University. I am now a Normalien student in Cognitive Science at École Normale Supérieure - PSL. I draw on this interdisciplinary background to clarify problems and ask the right questions.",
+      tagline: "I study how people think. Sometimes it helps.",
+      bio: "I hold a Double B.A. in Social Sciences and Philosophy from Sciences Po and Sorbonne University. I am now a Normalien student in Cognitive Science at École Normale Supérieure - PSL. I draw on this interdisciplinary background to clarify problems and ask the right questions.",
       researchCta: "My research →",
       projectsTitle: "Projects",
       servicesCta: "Work with me →",
