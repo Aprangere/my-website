@@ -172,7 +172,7 @@ export const translations = {
       name: "Arman Prangere",
       role: "M.Sc. Sciences Cognitives · ENS - PSL",
       tagline: "Bienvenue sur mon site !",
-      bio: "Bienvenue sur mon site ! Je m'appelle Arman, j'ai une double formation en Sciences Sociales et Philosophie (Sciences Po / Sorbonne). Désormais, je suis Normalien étudiant en Sciences Cognitives à l'Ecole Normale Supérieure - PSL. Je m'appuie sur ce parcours pluridisciplinaire pour revisiter des défis classiques des sciences sociales (modernité, cohesion sociale, prise de decision collective) et envisager des solutions!",
+      bio: "Bienvenue sur mon site ! Je m'appelle Arman, j'ai une double formation en Sciences Sociales et Philosophie (Sciences Po / Sorbonne). Désormais, je suis Normalien étudiant en Sciences Cognitives à l'Ecole Normale Supérieure - PSL. Je m'appuie sur ce parcours pluridisciplinaire pour repenser des questions classiques des sciences sociales (modernité, cohésion sociale, prise de decision collective) et envisager des solutions concrètes!",
       researchCta: "Ma recherche →",
       projectsTitle: "Projets",
       servicesCta: "Travailler ensemble →",
