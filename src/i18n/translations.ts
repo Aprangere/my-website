@@ -5,9 +5,9 @@ export const translations = {
     home: {
       name: "Arman Prangere",
       role: "M.Sc. Cognitive Science · ENS - PSL",
-      tagline: "Welcome to my website!",
-      bio: "My name is Arman, I hold a Double B.A. in Social Sciences and Philosophy from Sciences Po and Sorbonne University. I am now a Normalien student in Cognitive Science at École Normale Supérieure - PSL. I draw on this interdisciplinary background to study the interactions between culture and the human mind. ",
-      researchCta: "My research →",
+      tagline: "I study how cognition and culture shape one other, and what that tells us about the way we think, work, and decide together.",
+      bio: "Welcome to my website! My name is Arman, I hold a Double B.A. in Social Sciences and Philosophy from Sciences Po and Sorbonne University, and I'm now a Normalien student in Cognitive Science at École Normale Supérieure - PSL. I draw on this interdisciplinary background to revisit classical questions of the social sciences (modernity, social cohesion, decision-making) through the lens of the mind as an information-processing system. I am particularly interested in bridging cognitive science and real-world problems: from designing and testing behavioural interventions, to building systems for collective intelligence and knowledge management. This website aims at fostering collaborations, feel free to reach out!",
+      researchCta: "Learn more about my research →",
       projectsTitle: "Projects",
       servicesCta: "Work with me →",
       cta: "Interested in working together? Feel free to reach out.",
