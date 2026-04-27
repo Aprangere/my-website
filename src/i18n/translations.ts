@@ -5,8 +5,8 @@ export const translations = {
     home: {
       name: "Arman Prangere",
       role: "M.Sc. Cognitive Science · ENS - PSL",
-      tagline: "I study how people think. Sometimes it helps.",
-      bio: "I hold a Double B.A. in Social Sciences and Philosophy from Sciences Po and Sorbonne University. I am now a Normalien student in Cognitive Science at École Normale Supérieure - PSL. I draw on this interdisciplinary background to clarify problems and ask the right questions.",
+      tagline: "Hi, welcome to my website!",
+      bio: "My name is Arman, I hold a Double B.A. in Social Sciences and Philosophy from Sciences Po and Sorbonne University. I am now a Normalien student in Cognitive Science at École Normale Supérieure - PSL. I draw on this interdisciplinary background to study the interactions between culture and the human mind. ",
       researchCta: "My research →",
       projectsTitle: "Projects",
       servicesCta: "Work with me →",
@@ -171,8 +171,8 @@ export const translations = {
     home: {
       name: "Arman Prangere",
       role: "M.Sc. Sciences Cognitives · ENS - PSL",
-      tagline: "J'étudie comment les gens pensent. Parfois, ça aide.",
-      bio: "J'ai une double formation en Sciences Sociales et Philosophie (Sciences Po / Sorbonne). Désormais, je suis Normalien étudiant en Sciences Cognitives à l'Ecole Normale Supérieure - PSL. Ce parcours pluridisciplinaire m'aide à clarifier les problèmes et à poser les bonnes questions.",
+      tagline: "Salut, bienvenue sur mon site !",
+      bio: "Je m'appelle Arman, j'ai une double formation en Sciences Sociales et Philosophie (Sciences Po / Sorbonne). Désormais, je suis Normalien étudiant en Sciences Cognitives à l'Ecole Normale Supérieure - PSL. Je m'appuie sur ce parcours pluridisciplinaire pour étudier les interactions entre la culture et l'esprit humain.",
       researchCta: "Ma recherche →",
       projectsTitle: "Projets",
       servicesCta: "Travailler ensemble →",
