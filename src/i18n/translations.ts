@@ -5,7 +5,7 @@ export const translations = {
     home: {
       name: "Arman Prangere",
       role: "M.Sc. Cognitive Science · ENS - PSL",
-      tagline: "Hi, welcome to my website!",
+      tagline: "Welcome to my website!",
       bio: "My name is Arman, I hold a Double B.A. in Social Sciences and Philosophy from Sciences Po and Sorbonne University. I am now a Normalien student in Cognitive Science at École Normale Supérieure - PSL. I draw on this interdisciplinary background to study the interactions between culture and the human mind. ",
       researchCta: "My research →",
       projectsTitle: "Projects",
@@ -171,7 +171,7 @@ export const translations = {
     home: {
       name: "Arman Prangere",
       role: "M.Sc. Sciences Cognitives · ENS - PSL",
-      tagline: "Salut, bienvenue sur mon site !",
+      tagline: "Bienvenue sur mon site !",
       bio: "Je m'appelle Arman, j'ai une double formation en Sciences Sociales et Philosophie (Sciences Po / Sorbonne). Désormais, je suis Normalien étudiant en Sciences Cognitives à l'Ecole Normale Supérieure - PSL. Je m'appuie sur ce parcours pluridisciplinaire pour étudier les interactions entre la culture et l'esprit humain.",
       researchCta: "Ma recherche →",
       projectsTitle: "Projets",
