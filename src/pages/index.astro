@@ -109,16 +109,6 @@ const fr = translations.fr;
     </div>
   </section>
 
-  <!-- Rotating quote -->
-  <section class="mt-20 mb-4">
-    <div class="border-l-2 border-lm-border dark:border-dm-border pl-5"
-         data-quotes-en={JSON.stringify(en.quotes)}
-         data-quotes-fr={JSON.stringify(fr.quotes)}>
-      <p id="quote-text" class="text-stone-500 dark:text-stone-400 italic leading-relaxed transition-opacity duration-700"></p>
-      <p id="quote-author" class="text-xs text-stone-400 dark:text-stone-500 mt-2 transition-opacity duration-700"></p>
-    </div>
-  </section>
-
 <script>
   // Paris time
   function updateParisTime() {
@@ -130,34 +120,6 @@ const fr = translations.fr;
   }
   updateParisTime();
   setInterval(updateParisTime, 60000);
-
-  // Rotating quotes
-  const quoteContainer = document.querySelector('[data-quotes-en]') as HTMLElement;
-  const quoteText   = document.getElementById('quote-text')!;
-  const quoteAuthor = document.getElementById('quote-author')!;
-  if (quoteContainer) {
-    const enQuotes: { text: string; author: string }[] = JSON.parse(quoteContainer.dataset.quotesEn || '[]');
-    const frQuotes: { text: string; author: string }[] = JSON.parse(quoteContainer.dataset.quotesFr || '[]');
-    let idx = Math.floor(Math.random() * enQuotes.length);
-
-    function showQuote() {
-      const lang = (localStorage.getItem('lang') as 'en' | 'fr') || 'en';
-      const quotes = lang === 'fr' ? frQuotes : enQuotes;
-      if (!quotes.length) return;
-      quoteText.style.opacity = '0';
-      quoteAuthor.style.opacity = '0';
-      setTimeout(() => {
-        quoteText.textContent   = `"${quotes[idx].text}"`;
-        quoteAuthor.textContent = `— ${quotes[idx].author}`;
-        quoteText.style.opacity = '1';
-        quoteAuthor.style.opacity = '1';
-        idx = (idx + 1) % quotes.length;
-      }, 700);
-    }
-
-    showQuote();
-    setInterval(showQuote, 10000);
-  }
 </script>
 
 </BaseLayout>

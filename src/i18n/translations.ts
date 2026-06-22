@@ -83,7 +83,7 @@ export const translations = {
       ],
 
       currentTitle: "Current Work",
-      current: "In my internship at Institut Jean Nicod, I track the psychological foundations of long term change in philosophical ideas. I use AI pipelines to operationalize constructs such as Inwardness or Ambiguity Tolerance in databases assembling thousands of thinkers. Building on human behavioral ecology, we hypothesize shifting material and social conditions partly explain the evolution of philosophical thought.",
+      current: "In my internship at Institut Jean Nicod, I track the psychological foundations of long term change in philosophical ideas. I use AI pipelines to operationalise constructs such as Inwardness or Ambiguity Tolerance in databases assembling thousands of thinkers. Building on human behavioral ecology, we hypothesize shifting material and social conditions partly explain the evolution of philosophical thought.",
 
       publicationsTitle: "Publications & Manuscripts",
       publications: [
@@ -107,7 +107,7 @@ export const translations = {
         "Design and run experiments — A/B tests, surveys, pilots",
         "Analyse data and synthesise scientific literature",
         "Introduce your team to behavioural sciences",
-        "Build NLP pipelines, AI tools and automated workflows",
+        "Explore AI tools, automated workflows, and lightweight automation",
       ],
       areasTitle: "Areas of practice",
       areas: [
@@ -275,7 +275,7 @@ export const translations = {
         "Concevoir et mener des expériences — tests A/B, sondages, pilotes",
         "Analyser vos données et synthétiser la littérature scientifique",
         "Initier votre équipe aux sciences comportementales",
-        "Construire des pipelines NLP, des outils IA et des workflows automatisés",
+        "Explorer les outils IA, les workflows automatisés et l'automatisation légère",
       ],
       areasTitle: "Domaines d'intervention",
       areas: [
