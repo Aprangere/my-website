@@ -281,19 +281,19 @@ export const translations = {
       areas: [
         {
           title: "Sciences comportementales & Stratégie",
-          body: "Je diagnostique les frictions, conçois des interventions et mesure l'impact — pour des équipes, des usagers ou des populations.",
+          body: "Diagnostiquer les frictions, concevoir des interventions et mesurer l'impact — pour des équipes, des usagers ou des populations.",
         },
         {
           title: "Analyse de données",
-          body: "J'analyse les données, construis des pipelines NLP et traduit les données brutes en recommandations actionnable.",
+          body: "Analyser des données comportementales, construire des pipelines NLP et transformer des données brutes en recommandations actionnables.",
         },
         {
           title: "Outils IA & Automatisation",
-          body: "J'apprends à mettre en place des workflows IA et des automatisations légères. Je serais ravi de progresser à travers un projet ensemble. ",
+          body: "Mettre en place des chatbots, des workflows assistés par IA et des automatisations légères adaptées à votre équipe. En apprentissage continu.",
         },
         {
           title: "Conception des décisions organisationnelles",
-          body: "Je cartographie comment les décisions se prennent, puis repense les structures, processus et incitations.",
+          body: "Cartographier comment les décisions se prennent, puis repenser les structures, processus et incitations qui façonnent les comportements collectifs.",
         },
       ],
       offeringsTitle: "Comment travailler ensemble",
