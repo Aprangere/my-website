@@ -117,11 +117,11 @@ export const translations = {
         },
         {
           title: "Data Analysis & NLP",
-          body: "Analysing behavioural datasets, building NLP pipelines, automated annotation, and turning raw data into clear, actionable findings.",
+          body: "Analysing behavioural datasets, building NLP pipelines, automated annotation, and turning raw data into actionable findings.",
         },
         {
           title: "AI Tools & Workflow Automation",
-          body: "Setting up chatbots, AI-assisted workflows, and lightweight automation that fit how your team actually works.",
+          body: "Setting up chatbots, AI-assisted workflows, and lightweight automation. Continuously learning.",
         },
         {
           title: "Organisational Decision Design",
@@ -275,7 +275,7 @@ export const translations = {
         "Concevoir et mener des expériences — tests A/B, sondages, pilotes",
         "Analyser vos données et synthétiser la littérature scientifique",
         "Initier votre équipe aux sciences comportementales",
-        "Explorer les outils IA, les workflows automatisés et l'automatisation légère",
+        "Explorer les outils IA et les workflows automatisés",
       ],
       areasTitle: "Domaines d'intervention",
       areas: [
@@ -285,11 +285,11 @@ export const translations = {
         },
         {
           title: "Analyse de données",
-          body: "J'analyse les données, construis des pipelines NLP et transforme l'information brute en recommandation actionnable.",
+          body: "J'analyse les données, construis des pipelines NLP et traduit les données brutes en recommandations actionnable.",
         },
         {
           title: "Outils IA & Automatisation",
-          body: "Je mets en place des workflows IA et des automatisations légères qui s'intègrent vraiment dans le quotidien de votre équipe.",
+          body: "J'apprends à mettre en place des workflows IA et des automatisations légères. Je serais ravi de progresser à travers un projet ensemble. ",
         },
         {
           title: "Conception des décisions organisationnelles",
