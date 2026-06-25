@@ -87,24 +87,43 @@ const fr = translations.fr;
 
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
       {en.projects.map((item, i) => (
-        <div class="group flex flex-col rounded-2xl overflow-hidden bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border hover:border-accent/40 dark:hover:border-accent/40 transition-colors duration-200">
-          <div class="w-full bg-stone-100 dark:bg-stone-800">
-            <img
-              src={`/${item.image}`}
-              alt={item.alt}
-              class="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-500"
-              onerror="this.parentElement.style.background='#ffe0b3'"
-            />
-          </div>
-          <div class="flex flex-col flex-1 p-5">
-            <p class="text-[11px] font-medium text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-2"
-              data-en={item.context} data-fr={fr.projects[i].context}>{item.context}</p>
-            <h3 class="font-semibold text-stone-900 dark:text-stone-100 leading-snug mb-2"
-              data-en={item.title} data-fr={fr.projects[i].title}>{item.title}</h3>
-            <p class="text-sm text-stone-600 dark:text-stone-300 leading-relaxed"
-              data-en={item.description} data-fr={fr.projects[i].description}>{item.description}</p>
-          </div>
-        </div>
+        item.link
+          ? <a href={item.link} target="_blank" rel="noopener noreferrer" class="group flex flex-col rounded-2xl overflow-hidden bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border hover:border-accent/40 dark:hover:border-accent/40 transition-colors duration-200">
+              <div class="w-full bg-stone-100 dark:bg-stone-800">
+                <img
+                  src={`/${item.image}`}
+                  alt={item.alt}
+                  class="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-500"
+                  onerror="this.parentElement.style.background='#ffe0b3'"
+                />
+              </div>
+              <div class="flex flex-col flex-1 p-5">
+                <p class="text-[11px] font-medium text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-2"
+                  data-en={item.context} data-fr={fr.projects[i].context}>{item.context}</p>
+                <h3 class="font-semibold text-stone-900 dark:text-stone-100 leading-snug mb-2"
+                  data-en={item.title} data-fr={fr.projects[i].title}>{item.title}</h3>
+                <p class="text-sm text-stone-600 dark:text-stone-300 leading-relaxed"
+                  data-en={item.description} data-fr={fr.projects[i].description}>{item.description}</p>
+              </div>
+            </a>
+          : <div class="group flex flex-col rounded-2xl overflow-hidden bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border hover:border-accent/40 dark:hover:border-accent/40 transition-colors duration-200">
+              <div class="w-full bg-stone-100 dark:bg-stone-800">
+                <img
+                  src={`/${item.image}`}
+                  alt={item.alt}
+                  class="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-500"
+                  onerror="this.parentElement.style.background='#ffe0b3'"
+                />
+              </div>
+              <div class="flex flex-col flex-1 p-5">
+                <p class="text-[11px] font-medium text-stone-400 dark:text-stone-500 uppercase tracking-widest mb-2"
+                  data-en={item.context} data-fr={fr.projects[i].context}>{item.context}</p>
+                <h3 class="font-semibold text-stone-900 dark:text-stone-100 leading-snug mb-2"
+                  data-en={item.title} data-fr={fr.projects[i].title}>{item.title}</h3>
+                <p class="text-sm text-stone-600 dark:text-stone-300 leading-relaxed"
+                  data-en={item.description} data-fr={fr.projects[i].description}>{item.description}</p>
+              </div>
+            </div>
       ))}
     </div>
   </section>

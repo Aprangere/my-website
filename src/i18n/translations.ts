@@ -21,6 +21,7 @@ export const translations = {
         description: "Strategic recommendations based on ethnographic research, creative activations with local partners, and the design of a statistical plan and impact questionnaire for monitoring and evaluation.",
         image: "wfp.png",
         alt: "WFP",
+        link: "",
       },
       {
         title: "Encouraging 3R Behaviors Among Youth",
@@ -28,6 +29,7 @@ export const translations = {
         description: "Literature review and behavioural mapping to promote Reduce, Reuse and Recycle behaviours among 6–18 year-olds.",
         image: "citeo.jpg",
         alt: "Citéo",
+        link: "",
       },
       {
         title: "Developing a Local Tea Shop",
@@ -35,6 +37,7 @@ export const translations = {
         description: "Analysis of a tea shop in Edinburgh and identification of choice overload as a key friction point. Strategic recommendations based on behavioural economics and decision-making neuroscience.",
         image: "tea.jpg",
         alt: "Tea shop",
+        link: "",
       },
       {
         title: "Mapping the Social Network of my Class",
@@ -42,6 +45,7 @@ export const translations = {
         description: "Data collection, analysis, and visualisation of acquaintance relationships within my M1 promotion — mapping the social structure of a cohort as a practical introduction to network analysis.",
         image: "SNA.png",
         alt: "Social network graph",
+        link: "https://docs.google.com/document/d/1oK9rpX5AFhgAgIKzLkDNKRU8PxYqF__QOKjVr8A1vec/edit?tab=t.0#heading=h.mbjsiz6n6jlo",
       },
     ],
 
@@ -187,6 +191,7 @@ export const translations = {
         description: "Recommandations stratégiques fondées sur la recherche ethnographique. Activations créatives avec des partenaires locaux. Conception d'un plan statistique et d'un questionnaire d'impact pour le suivi et l'évaluation.",
         image: "wfp.png",
         alt: "PAM",
+        link: "",
       },
       {
         title: "Encourager les comportements 3R chez les jeunes",
@@ -194,6 +199,7 @@ export const translations = {
         description: "Revue de littérature et cartographie comportementale pour promouvoir les comportements Réduire, Réutiliser et Recycler auprès des 6-18 ans.",
         image: "citeo.jpg",
         alt: "Citéo",
+        link: "",
       },
       {
         title: "Développer un salon de thé local",
@@ -201,6 +207,7 @@ export const translations = {
         description: "Analyse d'un salon de thé à Édimbourg et identification de la surcharge de choix comme point de friction clé. Recommandations stratégiques fondées sur l'économie comportementale et les neurosciences de la décision.",
         image: "tea.jpg",
         alt: "Salon de thé",
+        link: "",
       },
       {
         title: "Cartographier le réseau de ma promotion",
@@ -208,6 +215,7 @@ export const translations = {
         description: "Collecte de données, analyse et visualisation des relations de connaissance au sein de ma classe de M1. Introduction pratique à l'analyse de réseaux.",
         image: "SNA.png",
         alt: "Graphe de réseau social",
+        link: "https://docs.google.com/document/d/1oK9rpX5AFhgAgIKzLkDNKRU8PxYqF__QOKjVr8A1vec/edit?tab=t.0#heading=h.mbjsiz6n6jlo",
       },
     ],
 
