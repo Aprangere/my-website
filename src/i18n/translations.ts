@@ -23,6 +23,7 @@ export const translations = {
         alt: "WFP",
         link: "",
         type: "applied",
+        imageFit: "contain",
       },
       {
         title: "Encouraging 3R Behaviors Among Youth",
@@ -32,6 +33,7 @@ export const translations = {
         alt: "Citéo",
         link: "",
         type: "applied",
+        imageFit: "contain",
       },
       {
         title: "Developing a Local Tea Shop",
@@ -41,6 +43,7 @@ export const translations = {
         alt: "Tea shop",
         link: "",
         type: "applied",
+        imageFit: "contain",
       },
       {
         title: "Mapping the Social Network of my Class",
@@ -50,6 +53,7 @@ export const translations = {
         alt: "Social network graph",
         link: "https://docs.google.com/document/d/1oK9rpX5AFhgAgIKzLkDNKRU8PxYqF__QOKjVr8A1vec/edit?tab=t.0#heading=h.mbjsiz6n6jlo",
         type: "applied",
+        imageFit: "cover",
       },
       {
         title: "Misplaced Concreteness, Expected Completeness",
@@ -59,6 +63,7 @@ export const translations = {
         alt: "Ashby and Latour",
         link: "https://philarchive.org/rec/PRAMCE-4",
         type: "research",
+        imageFit: "cover",
       },
       {
         title: "Un philosophe roi numérique",
@@ -68,6 +73,7 @@ export const translations = {
         alt: "Digital philosopher king",
         link: "/philosophe-roi-numerique.pdf",
         type: "research",
+        imageFit: "cover",
       },
       {
         title: "Quantifying the Inward Turn",
@@ -77,6 +83,7 @@ export const translations = {
         alt: "Inward turn",
         link: "",
         type: "research",
+        imageFit: "cover",
       },
       {
         title: "Exploring the Impact of Childhood Harshness on Political Opinions",
@@ -86,6 +93,7 @@ export const translations = {
         alt: "Childhood harshness research",
         link: "",
         type: "research",
+        imageFit: "cover",
       },
     ],
 

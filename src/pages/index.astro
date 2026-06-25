@@ -101,11 +101,11 @@ const fr = translations.fr;
                data-type={item.type}
                class="project-card group flex flex-col rounded-2xl overflow-hidden bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border hover:border-accent/40 dark:hover:border-accent/40 transition-colors duration-200">
               {item.image ? (
-                <div class="w-full bg-stone-100 dark:bg-stone-800">
+                <div class="w-full aspect-video bg-lm-card dark:bg-dm-card overflow-hidden">
                   <img
                     src={`/${item.image}`}
                     alt={item.alt}
-                    class="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-500"
+                    class={`w-full h-full ${item.imageFit === 'contain' ? 'object-contain' : 'object-cover'} group-hover:scale-[1.03] transition-transform duration-500`}
                     onerror="this.parentElement.style.background='#ffe0b3'"
                   />
                 </div>
@@ -122,11 +122,11 @@ const fr = translations.fr;
           : <div data-type={item.type}
                  class="project-card group flex flex-col rounded-2xl overflow-hidden bg-lm-card dark:bg-dm-card border border-lm-border dark:border-dm-border hover:border-accent/40 dark:hover:border-accent/40 transition-colors duration-200">
               {item.image ? (
-                <div class="w-full bg-stone-100 dark:bg-stone-800">
+                <div class="w-full aspect-video bg-lm-card dark:bg-dm-card overflow-hidden">
                   <img
                     src={`/${item.image}`}
                     alt={item.alt}
-                    class="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-500"
+                    class={`w-full h-full ${item.imageFit === 'contain' ? 'object-contain' : 'object-cover'} group-hover:scale-[1.03] transition-transform duration-500`}
                     onerror="this.parentElement.style.background='#ffe0b3'"
                   />
                 </div>
