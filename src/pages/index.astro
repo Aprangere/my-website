@@ -103,7 +103,7 @@ const fr = translations.fr;
               {item.image ? (
                 <div class="w-full aspect-video bg-lm-card dark:bg-dm-card overflow-hidden">
                   <img
-                    src={`/${item.image}`}
+                    src={item.image.startsWith('http') ? item.image : `/${item.image}`}
                     alt={item.alt}
                     class={`w-full h-full ${item.imageFit === 'contain' ? 'object-contain' : 'object-cover'} group-hover:scale-[1.03] transition-transform duration-500`}
                     onerror="this.parentElement.style.background='#ffe0b3'"
@@ -124,7 +124,7 @@ const fr = translations.fr;
               {item.image ? (
                 <div class="w-full aspect-video bg-lm-card dark:bg-dm-card overflow-hidden">
                   <img
-                    src={`/${item.image}`}
+                    src={item.image.startsWith('http') ? item.image : `/${item.image}`}
                     alt={item.alt}
                     class={`w-full h-full ${item.imageFit === 'contain' ? 'object-contain' : 'object-cover'} group-hover:scale-[1.03] transition-transform duration-500`}
                     onerror="this.parentElement.style.background='#ffe0b3'"
